@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="google-appengine-python" name="Google App Engine (Python)">
+      <configuration>
+        <option name="rootFolder" value="$MODULE_DIR$" />
+        <option name="sdkFolder" value="/opt/google-appengine-python" />
+        <option name="templatesFolder" value="" />
+        <option name="email" value="polish1987@gmail.com" />
+        <option name="gp" value="dfe2df99dfc6dfc6dfc5dfd8dfcddfcbdfc4dfc3dfd9dfcbdfdedfc3dfc5dfc4dfd9df9bdfc4dfcd" />
+        <option name="oauth2" value="false" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Google App Engine SDK" level="project" />
+  </component>
+  <component name="TemplatesService">
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="$MODULE_DIR$/templates" />
+      </list>
+    </option>
+  </component>
+</module>
+
