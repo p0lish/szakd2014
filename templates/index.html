@@ -1,0 +1,33 @@
+<body>
+  <script type="application/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+  <script type="text/javascript" src="/_ah/channel/jsapi"></script>
+  <script>
+
+    function onOpened(){
+        $('body').append('Open<br/>');
+
+    }
+    function onMessage(){
+        $('body').append('Message<br/>');
+
+    }
+    function onError(){
+        $('body').append('Error<br/>');
+
+    }
+    function onClose(){
+        $('body').append('Closed<br/>');
+
+    }
+
+
+
+
+    channel = new goog.appengine.Channel('{{ token }}');
+    socket = channel.open();
+    socket.onopen = onOpened;
+    socket.onmessage = onMessage;
+    socket.onerror = onError;
+    socket.onclose = onClose;
+  </script>
+</body>
