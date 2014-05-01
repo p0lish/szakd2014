@@ -1,7 +1,7 @@
 application: lj-szakdolgozat-2014
-version: 1
+version: 2
 runtime: python27
-api_version: 1
+api_version: 2
 threadsafe: true
 
 handlers:
